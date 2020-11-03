@@ -23,7 +23,8 @@
     line-height: 0;
 }
 
-.header__logo-img {
+.header__logo-img, 
+.footer__logo-img {
     background-image: url(../images/projeco-logo.svg);
     width: 102px;
     height: 23px;
@@ -64,8 +65,8 @@
 
 .header__menu-logo--img {
     background-image: url(../images/projeco-logo-black.svg);
-    width: 102px;
-    height: 19px;
+    width: 80px;
+    height: 18px;
     display: inline-block;
 }
 
@@ -170,6 +171,10 @@
     top: 17px;
 }
 
+.our {
+    margin-bottom: 115px;
+}
+
 .our__inner-item {
     display: flex;
     justify-content: space-between;
@@ -200,10 +205,13 @@
     letter-spacing: 0.2px;
 }
 
-.our__item-btn {
+.btn-bg {
     width: 150px;
     height: 40px;
     background-color: #00A4E5;
+}
+
+.our__btn-bg {
     margin-left: 30px;
 }
 
@@ -213,6 +221,9 @@
     line-height: 18px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+}
+
+.our__btn-text {
     padding: 11px 29px;
 }
 
@@ -243,6 +254,104 @@
     padding: 0 22px 39px;
 }
 
+.build__inner {
+    background-image: url(../images/build-bg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.build__inner-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 35px;
+}
+
+.build__btn-bg {
+    margin: 0 auto;  
+}
+
+.build__btn-inner {
+    padding-bottom: 230px;
+}
+
+.build__btn-text {
+   padding: 11px 26px; 
+}
+
+.singup__inner {
+    background-color: #171819;
+}
+
+.singup__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singup__inner-input {
+    display: flex;
+    padding: 40px 0 40px 86px;
+}
+
+.singup__inner-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+.singup__input {
+    width: 250px;
+    border: 1px solid #979797;
+    padding: 0 16px;
+    &::placeholder {
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.07px;
+    }
+}
+
+.singup__btn-text {
+    padding: 11px 48px;
+}
+
+.footer {
+    background-color: #141A20;
+    color: #fff;
+    a {
+        color: #fff;
+    }
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.footer__media-inner {
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+}
+
+.footer__media {
+    width: 12px;
+    height: 12px;
+    filter: grayscale(100%);
+}
 
 
 @import "media";
