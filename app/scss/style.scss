@@ -16,6 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .header__logo {
@@ -31,12 +32,18 @@
     display: inline-block;
 }
 
+.header__title-inner {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+}
+
 .header__title {
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
     line-height: 70px;
     letter-spacing: 5.70937px;
-    padding-top: 318px;
 }
 
 .header__title-text {
@@ -50,9 +57,12 @@
     font-weight: 600;
     font-size: 11px;
     line-height: 15px;
-    padding-top: 221px;
-    margin-bottom: 71px;
     letter-spacing: 3.7px;
+    bottom: 11%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .header__menu {
@@ -79,23 +89,20 @@
     position: relative;
 }
 
-.menu {
-    width: 410px;
-}
-
 .menu__list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     cursor: pointer;
 }
 
 .menu__list-link {
+    padding: 13px 20px 12px;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
-    display: flex;
-    align-items: flex-end;
     letter-spacing: 1.09091px;
+    transition: all .5s;
     &:hover {
         color: #00A4E5;
     }
