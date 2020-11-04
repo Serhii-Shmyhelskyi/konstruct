@@ -335,22 +335,100 @@
 .footer__items {
     display: flex;
     justify-content: space-between;
+    padding-top: 42px;
+    margin-bottom: 39px;
 }
 
+.footer__item-company {
+    max-width: 250px;
+}
 
+.footer__item-title {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    margin-bottom: 20px;
+    font-weight: normal;
+} 
 
+.footer__logo-img {
+    margin-bottom: 17px;
+}
 
+.footer__item-links {
+    max-width: 77px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    margin-left: 60px;
+}
 
-.footer__media-inner {
+.footer__item-links--title{
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footer__item-faq {
+    max-width: 55px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    padding-top: 35px;
+    margin-left: 34px;
+}
+
+.footer__item-blog {
+    max-width: 62px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    padding-top: 35px;
+    margin-left: 38px;
+}
+
+.footer__item-contact {
+    max-width: 140px;
+    margin-left: 58px;
+}
+
+.footer__item-contact--title {
+    margin-bottom: 20px;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    font-weight: normal;
+}
+
+.footer__item-media--inner {
     display: flex;
     justify-content: space-around;
     width: 120px;
+    margin-left: 48px;
 }
 
 .footer__media {
     width: 12px;
     height: 12px;
     filter: grayscale(100%);
+}
+
+.footer__copy {
+    background-color: #171819;
+}
+
+.footer__copy-text {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 23px;
 }
 
 
