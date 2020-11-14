@@ -1,6 +1,6 @@
 @media (max-width: 980px) {
-    .our__item-text {
-        margin-left: 80px;
+    .our__item-title {
+        margin-right: 65px;
     }
     .our__inner-box {
         padding: 0 10px 0;
@@ -56,8 +56,7 @@
     }
     .story__inner-images {
         max-width: 900px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin: 0 auto;
     }
 
     .story__images {
@@ -108,8 +107,6 @@
 @media (max-width: 780px) {
     .story__inner-images {
     max-width: 900px;
-    margin-left: 25px;
-    margin-right: 25px;
     }
     .footer__items {
         display: block;
