@@ -44,6 +44,8 @@
     font-size: 60px;
     line-height: 70px;
     letter-spacing: 5.70937px;
+    animation-name: header-anim-1;
+    animation-duration: 2.0s;
 }
 
 .header__title-text {
@@ -51,6 +53,8 @@
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0;
+    animation-name: header-anim-2;
+    animation-duration: 2.0s;
 }
 
 .header__title-text--scrol {
@@ -63,6 +67,8 @@
     right: 0;
     margin: 0 auto;
     position: absolute;
+    animation-name: header-anim-3;
+    animation-duration: 2.0s;
 }
 
 .header__menu {
@@ -443,6 +449,40 @@
     letter-spacing: 0.846154px;
     text-align: center;
     padding: 22px 10px 23px;
+}
+
+
+@keyframes header-anim-1 {
+    0% {
+        transform: translateX(-3000px);
+    }
+    50% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes header-anim-2 {
+    0% {
+        transform: translateX(3000px);
+    }
+    50% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes header-anim-3 {
+    0% {
+        transform: translateY(3000px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 
