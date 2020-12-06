@@ -50,9 +50,14 @@
     }
     .story__inner-title {
         margin-bottom: 20px;
+        text-align: center;
+    }
+    .story__inner-text {
+        text-align: center;
     }
     .story__inner-item {
         max-width: 950px;
+        margin: 0 auto;
     }
     .story__inner-images {
         max-width: 900px;
@@ -227,6 +232,9 @@
     }
     .our__box {
         width: 340px;
+    }
+    .menu__list-item:not(:first-child) {
+        margin: 0;
     }
 }
 
